@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>The Algorithm</title>
+    <link rel="stylesheet" type="text/css" href="trystyle.css">
+</head>
+<body>
+    <div id="header">
+        <h1>
+            THE ALGORITHM FOR THE PERFECT AI
+        </h1>
+    </div>
+
+    <!-- The navigation bar on the left -->
+    <div id="navbar">
+        <ul>
+            <li><a href="default.aspx"> Main page </a></li>
+        </ul>
+        <p>
+            &nbsp;</p>
+        <ul>
+		    <li><a href="signup.aspx"> New user?? Sign-Up! </a></li>
+        </ul>
+        <p>
+            &nbsp;</p>
+        <ul>
+		    <li><a href="signin.aspx"> Already have an account? Login </a></li>
+        </ul>
+	</div>
+
+    <!-- The main body of the page -->
+    <div>
+        <p>
+            Using the procedure mentioned in <a href="https://en.wikipedia.org/wiki/Tic-tac-toe">this</a> post, methods were created.
+        </p>
+        <p>
+            <code>
+            comp_move() {&nbsp&nbsp&nbsp&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; //MAIN MOVE FUNCTION OF THE COMPUTER<br />
+	            &nbsp;&nbsp;&nbsp;
+	            check_win();&nbsp&nbsp&nbsp&nbsp&nbsp;&nbsp;&nbsp;&nbsp; //checks if there a move that wins the game for AI<br />
+	            &nbsp;&nbsp;&nbsp;
+	            check_oppo_win();&nbsp&nbsp&nbsp&nbsp//checks if there a move that wins the game for Player, and blocks it<br />
+                &nbsp;&nbsp;&nbsp;
+                create_fork();&nbsp&nbsp&nbsp&nbsp&nbsp;&nbsp; //checks if a fork can be created<br />
+	            &nbsp;&nbsp;&nbsp;
+                block_fork();&nbsp&nbsp&nbsp&nbsp&nbsp;&nbsp;&nbsp; //checks if an opponent can fork, and stop it<br />
+	            &nbsp;&nbsp;&nbsp;
+	            occupy_centre();&nbsp&nbsp&nbsp&nbsp //if centre if unoccupied, take it<br />
+	            &nbsp;&nbsp;&nbsp;
+	            occupy_corner();&nbsp&nbsp&nbsp&nbsp //if any corner if unoccupied, take it<br />
+	            &nbsp;&nbsp;&nbsp;
+	            occupy_edge();&nbsp&nbsp&nbsp&nbsp&nbsp;&nbsp; //if any edge if unoccupied, take it<br />
+            }
+            </code>
+            
+        </p>
+        <p>
+            Only one of the methods is executed under comp_move. The priority of the move is the 
+            same as the given order. Following these steps, we have an unbeatable AI.
+        </p>
+    </div>
+</body>
+</html>

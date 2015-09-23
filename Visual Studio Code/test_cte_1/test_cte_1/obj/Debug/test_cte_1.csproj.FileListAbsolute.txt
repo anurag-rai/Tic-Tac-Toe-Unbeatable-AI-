@@ -1,0 +1,7 @@
+c:\users\anurag\documents\visual studio 2012\Projects\test_cte_1\test_cte_1\bin\test_cte_1.dll
+c:\users\anurag\documents\visual studio 2012\Projects\test_cte_1\test_cte_1\bin\test_cte_1.pdb
+c:\users\anurag\documents\visual studio 2012\Projects\test_cte_1\test_cte_1\obj\Debug\test_cte_1.csprojResolveAssemblyReference.cache
+c:\users\anurag\documents\visual studio 2012\Projects\test_cte_1\test_cte_1\obj\Debug\test_cte_1.dll
+c:\users\anurag\documents\visual studio 2012\Projects\test_cte_1\test_cte_1\obj\Debug\test_cte_1.pdb
+c:\users\anurag\documents\visual studio 2012\Projects\test_cte_1\test_cte_1\obj\Debug\test_cte_1.Properties.Resources.resources
+c:\users\anurag\documents\visual studio 2012\Projects\test_cte_1\test_cte_1\obj\Debug\test_cte_1.csproj.GenerateResource.Cache

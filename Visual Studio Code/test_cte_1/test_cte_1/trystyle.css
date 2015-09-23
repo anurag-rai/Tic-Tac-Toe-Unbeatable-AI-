@@ -1,0 +1,54 @@
+﻿
+body {
+    background:black;
+    color: green;
+    font-family: Verdana;
+    height: 100%;
+
+}
+
+p {
+    color: green;
+    font-family: 'Comic Sans MS';
+}
+
+li{
+    margin: 10px 0;
+}
+
+#header {
+    background-color: #006;
+    color: #FFF;
+    padding: 10px;
+    height: 46px;
+    font-size: 12px;
+    text-align:center
+}
+
+#navbar {
+    float: left;
+    width: 20%;
+    height: 797px;
+    min-height:100%;
+    margin-top: 20px;
+}
+
+#middle {
+    width: 20%;
+    height: 338px;
+    min-height:100%;
+    margin-top: 18px;
+}
+
+#navright {
+    float: right;
+    width: 20%;
+    height: 338px;
+    min-height:100%;
+    margin-top: 18px;
+    margin-right: 100px;
+}
+
+#homely {
+    text-align:center
+}
